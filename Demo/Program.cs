@@ -36,13 +36,34 @@
             //        Console.Write($"Enter grade number {j+1} :  ");
             //         int.TryParse(Console.ReadLine(),out marks[i][j] );
 
-   
+
+            #endregion
+           
+            #region 3 - Arrray Methods
+            //int[] numbers = new int[] { 70, 50, 3,5, 1, 4 };
+            //int[] numbers2 = new int[5];
+            //Array.Sort(numbers); //sort asc
+            //Array.Reverse(numbers); //sort desc
+            //  Array.Copy(numbers, numbers2, 3);
+            //Array.ConstrainedCopy(numbers, 2, numbers2, 0,3);
+            // Console.WriteLine(Array.IndexOf(numbers,50)); // to display first index of value if it has redandansy.
+            // Console.WriteLine(Array.LastIndexOf(numbers,50));
+            //int[]arr = (int[]) Array.CreateInstance(typeof(int[]), 4);
+            //int[,] arrs = (int[,])Array.CreateInstance(typeof(int[,]), 5/*row*/,6/*colum*/);
+
+            //numbers.CopyTo(numbers2, 0);
+            //numbers.SetValue(80, 4);
+            //Console.WriteLine(numbers.GetValue(0));
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
             #endregion
 
             #region 
-            #endregion
 
-            #region
             #endregion
 
             #region
@@ -64,5 +85,5 @@
             #endregion
 
         }
-        }
+    }
 }
