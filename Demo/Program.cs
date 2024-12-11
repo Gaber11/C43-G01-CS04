@@ -124,10 +124,35 @@
             //Y=X ?? 0;
             //Console.WriteLine(Y);
 
-#endregion
+            #endregion
 
 
-            #region
+            #region 6 - Null Propagation Operator & Null Forgiving Operator
+            //  double Salary = default;
+            //    Console.WriteLine(Salary);  
+            //int[] Arr;
+            //Arr = default;
+
+            ////for (int i = 0;(Arr is not null)&& i < Arr.Length; i++)
+            ////{
+            ////    Console.WriteLine(Arr[i]);
+
+            ////}
+
+            //for (int i = 0; i < Arr?.Length; i++)
+            //{
+            //    Console.WriteLine(Arr[i]);
+
+            //}
+            //Employee {Id, Name, Department}
+            //Department {Dep_id , DeptName}
+            //int[] Numbers = { 2, 3, 4, 5, 6, 7, 8, };
+            //Numbers = null;
+            // Console.WriteLine(Numbers?.Length);
+            //// null forgeviness operator --> !
+            //string name = null!;
+
+            //Console.ReadKey();
             #endregion
 
             #region
