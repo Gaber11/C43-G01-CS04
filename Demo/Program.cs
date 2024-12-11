@@ -62,7 +62,6 @@
 
             #endregion
 
-
             #region  4 - Boxing & UnBoxing
             //Boxing  Casting from value type to reference type
             // Boxing  Casting from reference type to value type.
@@ -82,9 +81,51 @@
             //              //Dog = animal
             #endregion
 
-            #region 
+            #region 5 - Nullable Types & Null Coelascing Operator Cont
+            //String? name = null;
+            //int number = null;
+            //int[] Numbers;
+            //Numbers = null;
+            //===================
+            //int? Num =10;
+            //Num = null;
+            //double?  Salary = 100.5;
+            //Salary = null;
+            //int X = 5;
+            //int ? Y = 10;
+            //Y=X;
+            // int ? X= 10;
+            //Y=null;
+            //int y=(int)X;
+            //if (X!=null)
+            //y=(int)X;
+            //else 
+            //Y = 0;
+            //Console.WriteLine (Y);
+            //int X=0;
+            //int Y ;
+            //if (X is not null)
+            //Y=(int)X;
+            //else
+            //Y = 0;
+            //Console.Write(Y);
+            ///********************************************/
+            //if(X.HasValue)
+            //{
+            //Y= (int)X;
+            //}
+            //else 
+            //{
+            //Y=0;
+            //}
+            //Y= X is not null ? (int)X:0;
+            //Console.WriteLine(Y);
+            ////-=====
+            //Y=X ?? 0;
+            //Console.WriteLine(Y);
 
-            #endregion
+#endregion
+
 
             #region
             #endregion
