@@ -73,7 +73,7 @@
 
             #region 4- Write a program in C# Sharp to find the second largest element in an array.
             //int[] numbers = { 30, 80, 120,170,400, 200 };
-                     
+
 
             //int max = 0;
             //int secondmax =0;
@@ -91,7 +91,7 @@
             //    }
             //}
 
-          
+
             //Console.WriteLine("The second largest element is: " + secondmax);
 
 
@@ -101,7 +101,47 @@
 
             #endregion
 
-            #region
+            #region  5-. Consider an Array of Integer values with size N, having values as in this Example
+        //    try
+        //    {
+        //        Console.Write("Enter the Size of the Array: ");
+        //        int size = int.Parse(Console.ReadLine());
+        //        int[] arr = new int[size];
+
+        //        Console.WriteLine("Enter the Numbers of the Array:");
+        //        for (int i = 0; i < size; i++)
+        //        {
+        //            arr[i] = int.Parse(Console.ReadLine());
+        //        }
+
+        //        int MaxDistance = 0;
+
+        //        for (int i = 0; i < arr.Length; i++)
+        //        {
+        //            for (int j = i + 1; j < arr.Length; j++)
+        //            {
+        //                if (arr[i] == arr[j])
+        //                {
+        //                    int distance = j - i;
+        //                    if (distance > MaxDistance)
+        //                    {
+        //                        MaxDistance = distance;
+        //                    }
+        //                }
+        //            }
+        //        }
+
+        //Console.WriteLine("The longest distance between two equal cells is: " + MaxDistance);
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine("Something wrong review code again !");
+        //    }
+           
+
+           
+
+
             #endregion
 
             #region
