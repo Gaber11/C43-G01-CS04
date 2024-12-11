@@ -160,12 +160,58 @@
             //        ReversedWord += " ";
             //    }
             //}
-                            
+
             //Console.WriteLine("Reversed Letter: " + ReversedWord);
 
             #endregion
 
-            #region
+            #region 7- Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.
+            //try { 
+            //Console.WriteLine("Enter the number of rows:");
+            //int rows = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the number of columns:");
+            //int columns = int.Parse(Console.ReadLine());
+
+            //int[,] Array1 = new int[rows, columns];
+            //int[,] Array2 = new int[rows, columns];
+
+            //Console.WriteLine("Enter the elements of the first array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write($"Element [{i}, {j}]: ");
+            //        Array1[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Array2[i, j] = Array1[i, j];
+            //    }
+            //}
+
+            //Console.WriteLine("The second array is:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write(Array2[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine("Something wrong review  again !");
+            //}
+
+
+
+
+
             #endregion
 
             #region
