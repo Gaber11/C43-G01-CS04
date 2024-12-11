@@ -21,28 +21,56 @@
             #endregion
 
             #region 2- Write a program in C# Sharp to count the frequency of each element of an array.
-           // int[] arr = { 1, 2, 3, 4, 4, 5, 4, 5, 6, 6 };
-           //int freq = 0;
-           // for (int i = 0; i < arr.Length; i++)
-           // {
-           //     Console.Write(arr[i]);  
-              
-           //     for (int j = 0;j < arr.Length; j++)
-           //     {
-           //         if (arr[i] == arr[j])
-           //             freq+= arr[i];
-           //         Console.Write(freq);
+            //Don't know.
+            // int[] arr = { 1, 2, 3, 4, 4, 5, 4, 5, 6, 6 };
+            //int freq = 0;
+            // for (int i = 0; i < arr.Length; i++)
+            // {
+            //     Console.Write(arr[i]);  
 
-           //     }
-           //     Console.WriteLine();
+            //     for (int j = 0;j < arr.Length; j++)
+            //     {
+            //         if (arr[i] == arr[j])
+            //             freq+= arr[i];
+            //         Console.Write(freq);
 
-           // }
-           //Don't know.
+            //     }
+            //     Console.WriteLine();
+
+            // }
+            //Don't know.
 
             #endregion
 
-            #region
+            #region 3- Write a program in C# Sharp to find maximum and minimum element in an array
+           //int[] Numbers = new int[5];
+           // int max = 0;
+           // int min = 0;
 
+           // Console.WriteLine("Enter 5 Numbers to know max and min :");
+           // for (int j = 0; j < Numbers.Length; j++)
+           // {
+           //    Numbers[j]=int.Parse(Console.ReadLine());   
+
+           // }
+           // for (int i = 0; i < Numbers.Length; i++)
+           // {
+           //     if ( Numbers[i]>max)
+           //     {
+           //         max = Numbers[i];  
+           //     }
+
+           //     else if (Numbers[i]<min)
+           //     {
+           //         min = Numbers[i];  
+           //     }
+           // }
+
+       
+           // Console.WriteLine($"Maximum element is :  {max}");
+           // Console.WriteLine($"Minimum element is :  {min}");
+
+          
             #endregion
 
             #region
