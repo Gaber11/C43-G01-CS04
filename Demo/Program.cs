@@ -2,6 +2,15 @@
 {
     internal class Program
     {
+        //function
+        static void printShape(int count, string pattern="**&**")
+        {
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine(pattern);
+            }
+        }
+
         static void Main(string[] args)
         {
 
@@ -155,7 +164,16 @@
             //Console.ReadKey();
             #endregion
 
-            #region
+            #region 7 - Functions
+           //  printShape(5,@"/+_+\");
+            // printShape(5);
+
+
+
+            // Console.Write("Gaber\n Ezzat");
+            //Console.Write("Gaber\tEzzat");
+           // Console.WriteLine(@"sdsdsds\dsdsds\dssds\dssd"); 
+           
             #endregion
 
             #region
