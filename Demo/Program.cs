@@ -10,6 +10,22 @@
                 Console.WriteLine(pattern);
             }
         }
+        //static void swap(int x, int y)
+        //{
+        //    int temp;
+        //    temp = x;
+        //    x = y;
+        //    y = temp;
+
+        //}
+        static void swap(ref int x, ref int y)
+        {
+            int temp;
+            temp = x;
+            x = y;
+            y = temp;
+
+        }
 
         static void Main(string[] args)
         {
@@ -165,18 +181,37 @@
             #endregion
 
             #region 7 - Functions
-           //  printShape(5,@"/+_+\");
+            //  printShape(5,@"/+_+\");
             // printShape(5);
 
 
 
             // Console.Write("Gaber\n Ezzat");
             //Console.Write("Gaber\tEzzat");
-           // Console.WriteLine(@"sdsdsds\dsdsds\dssds\dssd"); 
-           
+            // Console.WriteLine(@"sdsdsds\dsdsds\dssds\dssd"); 
+
             #endregion
 
-            #region
+            #region 8 - Function - Value Type Parameter
+            //passing by value
+
+            //int x = 5;
+            //int y = 7;
+            //Console.WriteLine("X -->" + x);
+            //Console.WriteLine("Y -->" + y);
+            //Console.WriteLine("==============");
+            //swap(x, y);
+            //Console.WriteLine("X -->" + x);
+            //Console.WriteLine("Y -->" + y);
+            //passing by ref
+            //int x = 5;
+            //int y = 7;
+            //Console.WriteLine("X -->" + x);
+            //Console.WriteLine("Y -->" + y);
+            //Console.WriteLine("=======AfterSwap=======");
+            //swap(ref x,ref y);
+            //Console.WriteLine("X -->" + x);
+            //Console.WriteLine("Y -->" + y);
             #endregion
 
             #region
