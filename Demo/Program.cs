@@ -38,7 +38,7 @@
 
 
             #endregion
-           
+
             #region 3 - Arrray Methods
             //int[] numbers = new int[] { 70, 50, 3,5, 1, 4 };
             //int[] numbers2 = new int[5];
@@ -60,6 +60,26 @@
             //    Console.WriteLine(numbers[i]);
             //}
 
+            #endregion
+
+
+            #region  4 - Boxing & UnBoxing
+            //Boxing  Casting from value type to reference type
+            // Boxing  Casting from reference type to value type.
+            //object obj = new object();
+            //obj = "Gaber"; //Reference type 
+            //obj = 15;
+            //// 	//Implicit casting from int to obj [safe]
+            //obj = true;
+            //obj = 13.5;
+            //obj = new DateTime();
+            ////Animal  = dog
+
+            //int X = 15;
+            //object obj = 10;
+            ////obj = "Gaber";
+            //X = (int)obj; // Explicit casting [unsafe]
+            //              //Dog = animal
             #endregion
 
             #region 
