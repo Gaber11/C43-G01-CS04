@@ -43,11 +43,15 @@
         static int sumarr(ref int[] arr)
         {
             int sum = 0;
-            for (int i = 0; i < arr.Length; i++)
+            if (arr is not null) 
             {
-                sum += arr[i];
+                arr = new int[3] { 100, 200, 300 };
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    sum += arr[i];
 
 
+                }  
             }
             return sum;
 
@@ -242,7 +246,7 @@
             #endregion
 
             #region 9 - Function - Reference Type Parameter Part 1
-          //by value
+            //by value
             //int[] numbers = { 1, 2, 7, 8, 9 };
             //int result = sumarray(numbers);
             //Console.WriteLine(result);
@@ -253,7 +257,18 @@
 
             #endregion
 
-            #region
+            #region 10 - Function - Reference Type Parameter Part 2
+            //  int[] numbers = { 1, 2, 3 };
+            //  int result = sumarr(numbers);
+            ////  Console.WriteLine(result);
+            //  Console.WriteLine(numbers[0]);
+
+            //int[] numbers = { 1, 2, 3 };
+            //int result = sumarr(ref numbers);
+            ////  Console.WriteLine(result);
+            //Console.WriteLine(numbers[0]);
+
+
             #endregion
 
             #region
