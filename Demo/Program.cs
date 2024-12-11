@@ -76,8 +76,64 @@
             }
             return sum;
         }
+        //static void Dosome()
+        //{
+        //    int x=int.Parse(Console.ReadLine());
+        //    int y=int.Parse(Console.ReadLine());
+        //    int Division = x / y;
+        //    Console.WriteLine(Division);
+        //    int[] arr = { 1, 2, 3, 4, 5, 6 };
+        //    arr[100] = 10;
+
+        //}
+
+        static void DosomePrimitive()
+        {
+            int X;
+            bool flag;
+            do
+            {
+                Console.WriteLine("Please, Enter X");
+                flag = int.TryParse(Console.ReadLine(), out X); 
 
 
+
+            } while (!flag);
+
+            int Y;
+            bool flag1;
+            do
+            {
+                Console.WriteLine("Please, Enter Y");
+                flag1 = int.TryParse(Console.ReadLine(), out Y);
+
+
+
+            } while (!flag1 || Y <=0);
+
+            int Division = X / Y;
+            Console.WriteLine(Division);
+
+            int[] Arr = { 1, 2, 3 };
+            if (Arr is not null)
+            {
+                try
+                {
+                    Arr[1] = 10;
+                }
+                catch (Exception e){ 
+                Console.WriteLine(e.Message);
+                
+                }
+                finally
+                {
+                   
+                    //Release , Remove , Deallocate UnManaged rousrces [DB,Files]
+                    Console.WriteLine("Thnks, Byee !");
+                }
+            }
+
+        }
         static void Main(string[] args)
         {
 
@@ -303,16 +359,17 @@
             #endregion
 
             #region 12 - Params
-           // int[] Numbers = { 10, 20, 30 };
+            // int[] Numbers = { 10, 20, 30 };
             //int Result = Sum(10,20,30);
             //Console.WriteLine(Result);  
-
-
-
-
             #endregion
 
-            #region
+            #region 13 - Exception Handling
+
+            // Dosome();
+           // DosomePrimitive();
+
+
 
             #endregion
 
