@@ -21,35 +21,48 @@
             //    }
             //    Console.WriteLine();
             //}
-                #endregion
+            #endregion
 
-                #region
-                #endregion
+            #region 2 - Judged Array Part 2
+            //Console.Write("Please,Enter size of judget Array: ");
+            //int size=int.Parse(Console.ReadLine());
+            //int[][]marks = new int[size][];
+            //for (int i = 0; i < marks.Length; i++)
+            //{
+            //    Console.WriteLine("Enter The number of subject in student" +(i+1));
+            //    int SizeTwo = int.Parse(Console.ReadLine());    
+            //    for (int j = 0; j < SizeTwo; j++)
+            //    {
+            //        Console.Write($"Enter grade number {j+1} :  ");
+            //         int.TryParse(Console.ReadLine(),out marks[i][j] );
 
-                #region
-                #endregion
+   
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-                #region
-                #endregion
+            #region
+            #endregion
 
-            }
-    }
+            #region
+            #endregion
+
+        }
+        }
 }
