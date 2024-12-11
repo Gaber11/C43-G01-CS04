@@ -3,7 +3,7 @@
     internal class Program
     {
         //function
-        static void printShape(int count, string pattern="**&**")
+        static void printShape(int count, string pattern = "**&**")
         {
             for (int i = 0; i < count; i++)
             {
@@ -24,6 +24,33 @@
             temp = x;
             x = y;
             y = temp;
+
+        }
+        //function
+        static int sumarray(int[] arr)
+        {
+            int sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+
+
+            }
+         return sum;
+        
+
+        }
+        static int sumarr(ref int[] arr)
+        {
+            int sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+
+
+            }
+            return sum;
+
 
         }
 
@@ -214,7 +241,16 @@
             //Console.WriteLine("Y -->" + y);
             #endregion
 
-            #region
+            #region 9 - Function - Reference Type Parameter Part 1
+          //by value
+            //int[] numbers = { 1, 2, 7, 8, 9 };
+            //int result = sumarray(numbers);
+            //Console.WriteLine(result);
+            //by ref
+            //int[] number = { 1, 2, 7, 8, 9 };
+            //int resul = sumarr(ref number);
+            //Console.WriteLine(resul);
+
             #endregion
 
             #region
