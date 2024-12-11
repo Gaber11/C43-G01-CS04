@@ -43,37 +43,62 @@
             #endregion
 
             #region 3- Write a program in C# Sharp to find maximum and minimum element in an array
-           //int[] Numbers = new int[5];
-           // int max = 0;
-           // int min = 0;
+            //int[] Numbers = new int[5];
+            // int max = 0;
+            // int min = 0;
 
-           // Console.WriteLine("Enter 5 Numbers to know max and min :");
-           // for (int j = 0; j < Numbers.Length; j++)
-           // {
-           //    Numbers[j]=int.Parse(Console.ReadLine());   
+            // Console.WriteLine("Enter 5 Numbers to know max and min :");
+            // for (int j = 0; j < Numbers.Length; j++)
+            // {
+            //    Numbers[j]=int.Parse(Console.ReadLine());   
 
-           // }
-           // for (int i = 0; i < Numbers.Length; i++)
-           // {
-           //     if ( Numbers[i]>max)
-           //     {
-           //         max = Numbers[i];  
-           //     }
+            // }
+            // for (int i = 0; i < Numbers.Length; i++)
+            // {
+            //     if ( Numbers[i]>max)
+            //     {
+            //         max = Numbers[i];  
+            //     }
 
-           //     else if (Numbers[i]<min)
-           //     {
-           //         min = Numbers[i];  
-           //     }
-           // }
+            //     else if (Numbers[i]<min)
+            //     {
+            //         min = Numbers[i];  
+            //     }
+            // }
 
-       
-           // Console.WriteLine($"Maximum element is :  {max}");
-           // Console.WriteLine($"Minimum element is :  {min}");
+            // Console.WriteLine($"Maximum element is :  {max}");
+            // Console.WriteLine($"Minimum element is :  {min}");
 
-          
             #endregion
 
-            #region
+            #region 4- Write a program in C# Sharp to find the second largest element in an array.
+            //int[] numbers = { 30, 80, 120,170,400, 200 };
+                     
+
+            //int max = 0;
+            //int secondmax =0;
+
+            //for (int i = 1; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] > max)
+            //    {
+            //        secondmax = max;
+            //        max = numbers[i];
+            //    }
+            //    else if (numbers[i] > secondmax && numbers[i] != max)
+            //    {
+            //        secondmax = numbers[i];
+            //    }
+            //}
+
+          
+            //Console.WriteLine("The second largest element is: " + secondmax);
+
+
+
+
+
+
             #endregion
 
             #region
