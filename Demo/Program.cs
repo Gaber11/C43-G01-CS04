@@ -63,7 +63,19 @@
             Sum = x + y;
             Multiply = x * y;
         }
-         
+         //params
+         static int Sum(params int[] Arr)
+        {
+            int sum = 0;    
+           if (Arr is not null)
+            {
+                 for(int i = 0;i < Arr.Length;i++)
+            {
+                    sum += Arr[i];
+            }
+            }
+            return sum;
+        }
 
 
         static void Main(string[] args)
@@ -290,7 +302,13 @@
 
             #endregion
 
-            #region
+            #region 12 - Params
+           // int[] Numbers = { 10, 20, 30 };
+            //int Result = Sum(10,20,30);
+            //Console.WriteLine(Result);  
+
+
+
 
             #endregion
 
