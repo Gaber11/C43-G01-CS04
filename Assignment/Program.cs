@@ -102,49 +102,67 @@
             #endregion
 
             #region  5-. Consider an Array of Integer values with size N, having values as in this Example
-        //    try
-        //    {
-        //        Console.Write("Enter the Size of the Array: ");
-        //        int size = int.Parse(Console.ReadLine());
-        //        int[] arr = new int[size];
+            //    try
+            //    {
+            //        Console.Write("Enter the Size of the Array: ");
+            //        int size = int.Parse(Console.ReadLine());
+            //        int[] arr = new int[size];
 
-        //        Console.WriteLine("Enter the Numbers of the Array:");
-        //        for (int i = 0; i < size; i++)
-        //        {
-        //            arr[i] = int.Parse(Console.ReadLine());
-        //        }
+            //        Console.WriteLine("Enter the Numbers of the Array:");
+            //        for (int i = 0; i < size; i++)
+            //        {
+            //            arr[i] = int.Parse(Console.ReadLine());
+            //        }
 
-        //        int MaxDistance = 0;
+            //        int MaxDistance = 0;
 
-        //        for (int i = 0; i < arr.Length; i++)
-        //        {
-        //            for (int j = i + 1; j < arr.Length; j++)
-        //            {
-        //                if (arr[i] == arr[j])
-        //                {
-        //                    int distance = j - i;
-        //                    if (distance > MaxDistance)
-        //                    {
-        //                        MaxDistance = distance;
-        //                    }
-        //                }
-        //            }
-        //        }
+            //        for (int i = 0; i < arr.Length; i++)
+            //        {
+            //            for (int j = i + 1; j < arr.Length; j++)
+            //            {
+            //                if (arr[i] == arr[j])
+            //                {
+            //                    int distance = j - i;
+            //                    if (distance > MaxDistance)
+            //                    {
+            //                        MaxDistance = distance;
+            //                    }
+            //                }
+            //            }
+            //        }
 
-        //Console.WriteLine("The longest distance between two equal cells is: " + MaxDistance);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        Console.WriteLine("Something wrong review code again !");
-        //    }
-           
+            //Console.WriteLine("The longest distance between two equal cells is: " + MaxDistance);
+            //    }
+            //    catch (Exception e)
+            //    {
+            //        Console.WriteLine("Something wrong review code again !");
+            //    }
 
-           
+
+
 
 
             #endregion
 
-            #region
+            #region 6- Given a list of space separated words, reverse the order of the words.
+
+            //Console.WriteLine("Enter a space separated words:");
+            //string letter = Console.ReadLine();
+
+            //string[] words = letter.Split(" ");
+
+            //string ReversedWord = "";
+            //for (int i = words.Length - 1; i >= 0; i--)
+            //{
+            //    ReversedWord += words[i];
+            //    if (i != 0) 
+            //    {
+            //        ReversedWord += " ";
+            //    }
+            //}
+                            
+            //Console.WriteLine("Reversed Letter: " + ReversedWord);
+
             #endregion
 
             #region
