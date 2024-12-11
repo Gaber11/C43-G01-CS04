@@ -57,6 +57,14 @@
 
 
         }
+        //return 2
+        static void MultiplySum(int x, int y,out int Sum , out int  Multiply)
+        {
+            Sum = x + y;
+            Multiply = x * y;
+        }
+         
+
 
         static void Main(string[] args)
         {
@@ -271,7 +279,23 @@
 
             #endregion
 
+            #region 11 - Function - Passing By Out
+            //int A = 10;
+            //int B = 5;
+            //int Sum, Multiply;
+            //MultiplySum(A, B, out Sum, out Multiply);
+            //Console.WriteLine(Sum);
+            //Console.WriteLine(Multiply);
+
+
+            #endregion
+
             #region
+
+            #endregion
+
+            #region
+
             #endregion
 
         }
