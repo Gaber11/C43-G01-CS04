@@ -282,19 +282,25 @@
 
             #region 4-Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
 
-          //  Console.WriteLine("Enter Your Number to calculate the sum of digits: ");
-          //  int[]Digits=new int [1];
-          //  for (int i = 0; i < Digits.Length; i++)
-          //  {
-          //      Digits[i] =int.Parse(Console.ReadLine());
-          //  }
+            //  Console.WriteLine("Enter Your Number to calculate the sum of digits: ");
+            //  int[]Digits=new int [1];
+            //  for (int i = 0; i < Digits.Length; i++)
+            //  {
+            //      Digits[i] =int.Parse(Console.ReadLine());
+            //  }
 
-          //SumDigits(Digits);
+            //SumDigits(Digits);
 
 
             #endregion
 
-            #region
+            #region 5-Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+
+            //Console.WriteLine("Please, Enter Prime Number: ");
+            //int Num = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(IsPrime(Num));
+
 
             #endregion
             #region
@@ -370,7 +376,17 @@
 
         #endregion
 
+        #region Q5) IsPrime
+        //static bool IsPrime (int Num)
+        //{
+           
+        //    if (Num>2 && Num %2 == 0 && Num % Num == 1)
+        //        return false;
 
+        //    else return true;
+
+        //}
+        #endregion
 
     }
 }
