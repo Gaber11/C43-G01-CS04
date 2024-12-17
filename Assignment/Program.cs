@@ -263,7 +263,21 @@
 
             #endregion
 
-            #region
+            #region 3-	Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+
+            //int num1, num2,sum, subtract;
+
+            //Console.Write("Enter Number 1: ");
+            //num1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Number 2: ");
+            //num2 = int.Parse(Console.ReadLine());
+
+            //SumAndsubtract(num1,num2,out sum, out subtract);
+            //Console.WriteLine($"Sum of {num1} + {num2} = {sum}");
+            //Console.WriteLine($"Subtract of {num1} - {num2} = {subtract}");
+
+
             #endregion
 
             #region
@@ -304,6 +318,14 @@
         //}
         #endregion
 
+        #region Q3)
+        static void SumAndsubtract(int Num1, int Num2, out int sum, out int subtraction)
+        {
+            sum = Num1 + Num2;       //sum
+            subtraction = Num1 - Num2; //subtract
+        }
+
+        #endregion
 
 
     }
