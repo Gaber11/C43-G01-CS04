@@ -315,7 +315,17 @@
             //Console.WriteLine($"Max of Numbers:  {min}");
 
             #endregion
-            #region
+
+
+            #region 7-	Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+
+            //Console.WriteLine("Please, Enter Number  to calculate Factorial: ");
+            
+            //double Num = double.Parse(Console.ReadLine());
+            
+            //Console.WriteLine(Factorial(Num));
+
+
 
             #endregion
             #region
@@ -426,7 +436,27 @@
 
 
 
-        }
+        //}
+        #endregion
+
+        #region Q7)
+
+        //static double Factorial(double num)
+        //{
+        //    if (num == 0 || num == 1)
+        //        return 1;
+
+        //    double result = 1;
+
+         
+        //    for (int i = 2; i <= num; i++)
+        //    {
+        //        result *= i; 
+        //    }
+
+        //    return result;
+        //}
+
         #endregion
     }
 }
