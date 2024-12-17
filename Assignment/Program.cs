@@ -320,16 +320,18 @@
             #region 7-	Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
 
             //Console.WriteLine("Please, Enter Number  to calculate Factorial: ");
-            
+
             //double Num = double.Parse(Console.ReadLine());
-            
+
             //Console.WriteLine(Factorial(Num));
 
 
 
             #endregion
-            #region
 
+
+            #region 8-	Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
+            //Not Understand.
             #endregion
 
 
@@ -448,7 +450,7 @@
 
         //    double result = 1;
 
-         
+
         //    for (int i = 2; i <= num; i++)
         //    {
         //        result *= i; 
@@ -456,6 +458,10 @@
 
         //    return result;
         //}
+
+        #endregion
+
+        #region  Q8) 
 
         #endregion
     }
