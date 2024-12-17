@@ -303,7 +303,16 @@
 
 
             #endregion
-            #region
+
+            #region 6-Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+
+            //int[] numbers = { 5, 17, 21, 90, 11, 7 };
+            //int max = 0;
+            //int min = 0;
+
+            //MinMaxOfArray(numbers, ref min, ref max);
+            //Console.WriteLine($"Max of Numbers:  {max}");
+            //Console.WriteLine($"Max of Numbers:  {min}");
 
             #endregion
             #region
@@ -379,7 +388,7 @@
         #region Q5) IsPrime
         //static bool IsPrime (int Num)
         //{
-           
+
         //    if (Num>2 && Num %2 == 0 && Num % Num == 1)
         //        return false;
 
@@ -388,5 +397,36 @@
         //}
         #endregion
 
+        #region Q6)
+
+        //static void MinMaxOfArray(int[] array, ref int min, ref int max)
+        //{
+        //    if (array.Length == 0)
+        //    {
+        //        Console.WriteLine("The array is empty.");
+        //    }
+        //    else
+        //    {
+
+        //        min = array[0];
+        //        max = array[0];
+
+        //        foreach (int number in array)
+        //        {
+        //            if (number < min)
+        //                min = number;
+
+        //            if (number > max)
+        //                max = number;
+        //        }
+        //    }
+
+
+
+
+
+
+        }
+        #endregion
     }
 }
