@@ -280,8 +280,35 @@
 
             #endregion
 
-            #region
+            #region 4-Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+
+          //  Console.WriteLine("Enter Your Number to calculate the sum of digits: ");
+          //  int[]Digits=new int [1];
+          //  for (int i = 0; i < Digits.Length; i++)
+          //  {
+          //      Digits[i] =int.Parse(Console.ReadLine());
+          //  }
+
+          //SumDigits(Digits);
+
+
             #endregion
+
+            #region
+
+            #endregion
+            #region
+
+            #endregion
+            #region
+
+            #endregion
+            #region
+
+            #endregion
+
+
+
 
         }
 
@@ -319,13 +346,30 @@
         #endregion
 
         #region Q3)
-        static void SumAndsubtract(int Num1, int Num2, out int sum, out int subtraction)
-        {
-            sum = Num1 + Num2;       //sum
-            subtraction = Num1 - Num2; //subtract
-        }
+        //static void SumAndsubtract(int Num1, int Num2, out int sum, out int subtraction)
+        //{
+        //    sum = Num1 + Num2;       //sum
+        //    subtraction = Num1 - Num2; //subtract
+        //}
 
         #endregion
+
+        #region Q4)
+
+        //static void SumDigits(int []Number) 
+        //{
+        //    int sum = 0;
+        //    foreach (int number in Number)
+        //    {
+        //        sum += number;
+        //    }
+        //    Console.WriteLine(sum);
+        //}
+
+
+
+        #endregion
+
 
 
     }
